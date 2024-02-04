@@ -41,7 +41,7 @@ const Slider = () => {
             onClick={() => setCurrImg(index)}
             className={`${
               index === currImg ? "w-10" : "w-3 animate-pulse"
-            } h-3 rounded-full bg-white/80 backdrop-blur-[200]`}
+            } h-3 rounded-full bg-white`}
           ></button>
         ))}
       </div>
