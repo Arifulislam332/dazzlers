@@ -10,9 +10,99 @@ export const categories = [
     items: [
       {
         id: 1,
-        title: "",
-        image: "",
-        description: "",
+        title: "Blog 1",
+        image:
+          "https://images.pexels.com/photos/2909515/pexels-photo-2909515.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        description:
+          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel voluptatibus nam deserunt, tenetur, rem ducimus suscipit consequatur dicta doloribus iusto soluta",
+      },
+      {
+        id: 2,
+        title: "Blog 2",
+        image:
+          "https://images.pexels.com/photos/2909515/pexels-photo-2909515.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        description:
+          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel voluptatibus nam deserunt, tenetur, rem ducimus suscipit consequatur dicta doloribus iusto soluta",
+      },
+      {
+        id: 3,
+        title: "Blog 3",
+        image:
+          "https://images.pexels.com/photos/2909515/pexels-photo-2909515.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        description:
+          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel voluptatibus nam deserunt, tenetur, rem ducimus suscipit consequatur dicta doloribus iusto soluta",
+      },
+      {
+        id: 4,
+        title: "Blog 4",
+        image:
+          "https://images.pexels.com/photos/2909515/pexels-photo-2909515.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        description:
+          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel voluptatibus nam deserunt, tenetur, rem ducimus suscipit consequatur dicta doloribus iusto soluta",
+      },
+      {
+        id: 5,
+        title: "Blog 5",
+        image:
+          "https://images.pexels.com/photos/2909515/pexels-photo-2909515.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        description:
+          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel voluptatibus nam deserunt, tenetur, rem ducimus suscipit consequatur dicta doloribus iusto soluta",
+      },
+      {
+        id: 6,
+        title: "Blog 6",
+        image:
+          "https://images.pexels.com/photos/2909515/pexels-photo-2909515.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        description:
+          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel voluptatibus nam deserunt, tenetur, rem ducimus suscipit consequatur dicta doloribus iusto soluta",
+      },
+      {
+        id: 7,
+        title: "Blog 7",
+        image:
+          "https://images.pexels.com/photos/2909515/pexels-photo-2909515.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        description:
+          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel voluptatibus nam deserunt, tenetur, rem ducimus suscipit consequatur dicta doloribus iusto soluta",
+      },
+      {
+        id: 8,
+        title: "Blog 8",
+        image:
+          "https://images.pexels.com/photos/2909515/pexels-photo-2909515.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        description:
+          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel voluptatibus nam deserunt, tenetur, rem ducimus suscipit consequatur dicta doloribus iusto soluta",
+      },
+      {
+        id: 9,
+        title: "Blog 9",
+        image:
+          "https://images.pexels.com/photos/2909515/pexels-photo-2909515.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        description:
+          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel voluptatibus nam deserunt, tenetur, rem ducimus suscipit consequatur dicta doloribus iusto soluta",
+      },
+      {
+        id: 10,
+        title: "Blog 10",
+        image:
+          "https://images.pexels.com/photos/2909515/pexels-photo-2909515.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        description:
+          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel voluptatibus nam deserunt, tenetur, rem ducimus suscipit consequatur dicta doloribus iusto soluta",
+      },
+      {
+        id: 11,
+        title: "Blog 11",
+        image:
+          "https://images.pexels.com/photos/2909515/pexels-photo-2909515.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        description:
+          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel voluptatibus nam deserunt, tenetur, rem ducimus suscipit consequatur dicta doloribus iusto soluta",
+      },
+      {
+        id: 12,
+        title: "Blog 12",
+        image:
+          "https://images.pexels.com/photos/2909515/pexels-photo-2909515.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        description:
+          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel voluptatibus nam deserunt, tenetur, rem ducimus suscipit consequatur dicta doloribus iusto soluta",
       },
     ],
   },
@@ -27,9 +117,99 @@ export const categories = [
     items: [
       {
         id: 1,
-        title: "",
-        image: "",
-        description: "",
+        title: "Blog 1",
+        image:
+          "https://images.pexels.com/photos/2909515/pexels-photo-2909515.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        description:
+          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel voluptatibus nam deserunt, tenetur, rem ducimus suscipit consequatur dicta doloribus iusto soluta",
+      },
+      {
+        id: 2,
+        title: "Blog 2",
+        image:
+          "https://images.pexels.com/photos/2909515/pexels-photo-2909515.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        description:
+          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel voluptatibus nam deserunt, tenetur, rem ducimus suscipit consequatur dicta doloribus iusto soluta",
+      },
+      {
+        id: 3,
+        title: "Blog 3",
+        image:
+          "https://images.pexels.com/photos/2909515/pexels-photo-2909515.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        description:
+          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel voluptatibus nam deserunt, tenetur, rem ducimus suscipit consequatur dicta doloribus iusto soluta",
+      },
+      {
+        id: 4,
+        title: "Blog 4",
+        image:
+          "https://images.pexels.com/photos/2909515/pexels-photo-2909515.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        description:
+          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel voluptatibus nam deserunt, tenetur, rem ducimus suscipit consequatur dicta doloribus iusto soluta",
+      },
+      {
+        id: 5,
+        title: "Blog 5",
+        image:
+          "https://images.pexels.com/photos/2909515/pexels-photo-2909515.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        description:
+          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel voluptatibus nam deserunt, tenetur, rem ducimus suscipit consequatur dicta doloribus iusto soluta",
+      },
+      {
+        id: 6,
+        title: "Blog 6",
+        image:
+          "https://images.pexels.com/photos/2909515/pexels-photo-2909515.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        description:
+          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel voluptatibus nam deserunt, tenetur, rem ducimus suscipit consequatur dicta doloribus iusto soluta",
+      },
+      {
+        id: 7,
+        title: "Blog 7",
+        image:
+          "https://images.pexels.com/photos/2909515/pexels-photo-2909515.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        description:
+          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel voluptatibus nam deserunt, tenetur, rem ducimus suscipit consequatur dicta doloribus iusto soluta",
+      },
+      {
+        id: 8,
+        title: "Blog 8",
+        image:
+          "https://images.pexels.com/photos/2909515/pexels-photo-2909515.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        description:
+          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel voluptatibus nam deserunt, tenetur, rem ducimus suscipit consequatur dicta doloribus iusto soluta",
+      },
+      {
+        id: 9,
+        title: "Blog 9",
+        image:
+          "https://images.pexels.com/photos/2909515/pexels-photo-2909515.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        description:
+          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel voluptatibus nam deserunt, tenetur, rem ducimus suscipit consequatur dicta doloribus iusto soluta",
+      },
+      {
+        id: 10,
+        title: "Blog 10",
+        image:
+          "https://images.pexels.com/photos/2909515/pexels-photo-2909515.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        description:
+          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel voluptatibus nam deserunt, tenetur, rem ducimus suscipit consequatur dicta doloribus iusto soluta",
+      },
+      {
+        id: 11,
+        title: "Blog 11",
+        image:
+          "https://images.pexels.com/photos/2909515/pexels-photo-2909515.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        description:
+          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel voluptatibus nam deserunt, tenetur, rem ducimus suscipit consequatur dicta doloribus iusto soluta",
+      },
+      {
+        id: 12,
+        title: "Blog 12",
+        image:
+          "https://images.pexels.com/photos/2909515/pexels-photo-2909515.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        description:
+          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel voluptatibus nam deserunt, tenetur, rem ducimus suscipit consequatur dicta doloribus iusto soluta",
       },
     ],
   },
@@ -44,9 +224,99 @@ export const categories = [
     items: [
       {
         id: 1,
-        title: "",
-        image: "",
-        description: "",
+        title: "Blog 1",
+        image:
+          "https://images.pexels.com/photos/2909515/pexels-photo-2909515.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        description:
+          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel voluptatibus nam deserunt, tenetur, rem ducimus suscipit consequatur dicta doloribus iusto soluta",
+      },
+      {
+        id: 2,
+        title: "Blog 2",
+        image:
+          "https://images.pexels.com/photos/2909515/pexels-photo-2909515.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        description:
+          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel voluptatibus nam deserunt, tenetur, rem ducimus suscipit consequatur dicta doloribus iusto soluta",
+      },
+      {
+        id: 3,
+        title: "Blog 3",
+        image:
+          "https://images.pexels.com/photos/2909515/pexels-photo-2909515.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        description:
+          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel voluptatibus nam deserunt, tenetur, rem ducimus suscipit consequatur dicta doloribus iusto soluta",
+      },
+      {
+        id: 4,
+        title: "Blog 4",
+        image:
+          "https://images.pexels.com/photos/2909515/pexels-photo-2909515.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        description:
+          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel voluptatibus nam deserunt, tenetur, rem ducimus suscipit consequatur dicta doloribus iusto soluta",
+      },
+      {
+        id: 5,
+        title: "Blog 5",
+        image:
+          "https://images.pexels.com/photos/2909515/pexels-photo-2909515.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        description:
+          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel voluptatibus nam deserunt, tenetur, rem ducimus suscipit consequatur dicta doloribus iusto soluta",
+      },
+      {
+        id: 6,
+        title: "Blog 6",
+        image:
+          "https://images.pexels.com/photos/2909515/pexels-photo-2909515.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        description:
+          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel voluptatibus nam deserunt, tenetur, rem ducimus suscipit consequatur dicta doloribus iusto soluta",
+      },
+      {
+        id: 7,
+        title: "Blog 7",
+        image:
+          "https://images.pexels.com/photos/2909515/pexels-photo-2909515.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        description:
+          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel voluptatibus nam deserunt, tenetur, rem ducimus suscipit consequatur dicta doloribus iusto soluta",
+      },
+      {
+        id: 8,
+        title: "Blog 8",
+        image:
+          "https://images.pexels.com/photos/2909515/pexels-photo-2909515.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        description:
+          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel voluptatibus nam deserunt, tenetur, rem ducimus suscipit consequatur dicta doloribus iusto soluta",
+      },
+      {
+        id: 9,
+        title: "Blog 9",
+        image:
+          "https://images.pexels.com/photos/2909515/pexels-photo-2909515.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        description:
+          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel voluptatibus nam deserunt, tenetur, rem ducimus suscipit consequatur dicta doloribus iusto soluta",
+      },
+      {
+        id: 10,
+        title: "Blog 10",
+        image:
+          "https://images.pexels.com/photos/2909515/pexels-photo-2909515.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        description:
+          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel voluptatibus nam deserunt, tenetur, rem ducimus suscipit consequatur dicta doloribus iusto soluta",
+      },
+      {
+        id: 11,
+        title: "Blog 11",
+        image:
+          "https://images.pexels.com/photos/2909515/pexels-photo-2909515.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        description:
+          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel voluptatibus nam deserunt, tenetur, rem ducimus suscipit consequatur dicta doloribus iusto soluta",
+      },
+      {
+        id: 12,
+        title: "Blog 12",
+        image:
+          "https://images.pexels.com/photos/2909515/pexels-photo-2909515.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        description:
+          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel voluptatibus nam deserunt, tenetur, rem ducimus suscipit consequatur dicta doloribus iusto soluta",
       },
     ],
   },
@@ -61,9 +331,99 @@ export const categories = [
     items: [
       {
         id: 1,
-        title: "",
-        image: "",
-        description: "",
+        title: "Blog 1",
+        image:
+          "https://images.pexels.com/photos/2909515/pexels-photo-2909515.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        description:
+          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel voluptatibus nam deserunt, tenetur, rem ducimus suscipit consequatur dicta doloribus iusto soluta",
+      },
+      {
+        id: 2,
+        title: "Blog 2",
+        image:
+          "https://images.pexels.com/photos/2909515/pexels-photo-2909515.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        description:
+          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel voluptatibus nam deserunt, tenetur, rem ducimus suscipit consequatur dicta doloribus iusto soluta",
+      },
+      {
+        id: 3,
+        title: "Blog 3",
+        image:
+          "https://images.pexels.com/photos/2909515/pexels-photo-2909515.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        description:
+          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel voluptatibus nam deserunt, tenetur, rem ducimus suscipit consequatur dicta doloribus iusto soluta",
+      },
+      {
+        id: 4,
+        title: "Blog 4",
+        image:
+          "https://images.pexels.com/photos/2909515/pexels-photo-2909515.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        description:
+          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel voluptatibus nam deserunt, tenetur, rem ducimus suscipit consequatur dicta doloribus iusto soluta",
+      },
+      {
+        id: 5,
+        title: "Blog 5",
+        image:
+          "https://images.pexels.com/photos/2909515/pexels-photo-2909515.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        description:
+          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel voluptatibus nam deserunt, tenetur, rem ducimus suscipit consequatur dicta doloribus iusto soluta",
+      },
+      {
+        id: 6,
+        title: "Blog 6",
+        image:
+          "https://images.pexels.com/photos/2909515/pexels-photo-2909515.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        description:
+          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel voluptatibus nam deserunt, tenetur, rem ducimus suscipit consequatur dicta doloribus iusto soluta",
+      },
+      {
+        id: 7,
+        title: "Blog 7",
+        image:
+          "https://images.pexels.com/photos/2909515/pexels-photo-2909515.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        description:
+          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel voluptatibus nam deserunt, tenetur, rem ducimus suscipit consequatur dicta doloribus iusto soluta",
+      },
+      {
+        id: 8,
+        title: "Blog 8",
+        image:
+          "https://images.pexels.com/photos/2909515/pexels-photo-2909515.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        description:
+          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel voluptatibus nam deserunt, tenetur, rem ducimus suscipit consequatur dicta doloribus iusto soluta",
+      },
+      {
+        id: 9,
+        title: "Blog 9",
+        image:
+          "https://images.pexels.com/photos/2909515/pexels-photo-2909515.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        description:
+          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel voluptatibus nam deserunt, tenetur, rem ducimus suscipit consequatur dicta doloribus iusto soluta",
+      },
+      {
+        id: 10,
+        title: "Blog 10",
+        image:
+          "https://images.pexels.com/photos/2909515/pexels-photo-2909515.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        description:
+          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel voluptatibus nam deserunt, tenetur, rem ducimus suscipit consequatur dicta doloribus iusto soluta",
+      },
+      {
+        id: 11,
+        title: "Blog 11",
+        image:
+          "https://images.pexels.com/photos/2909515/pexels-photo-2909515.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        description:
+          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel voluptatibus nam deserunt, tenetur, rem ducimus suscipit consequatur dicta doloribus iusto soluta",
+      },
+      {
+        id: 12,
+        title: "Blog 12",
+        image:
+          "https://images.pexels.com/photos/2909515/pexels-photo-2909515.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        description:
+          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel voluptatibus nam deserunt, tenetur, rem ducimus suscipit consequatur dicta doloribus iusto soluta",
       },
     ],
   },
