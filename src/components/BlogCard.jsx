@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 const BlogCard = ({ blog, catid }) => {
   return (
-    <div className="w-full p-5 rounded-2xl bg-gray-50 flex flex-col gap-5 shadow-xl">
+    <div className="w-full p-5 rounded-2xl bg-gray-50 flex flex-col gap-5 shadow-md">
       <Link
         to={`/categories${catid}/${blog.id}`}
         className="w-full aspect-[5/4] overflow-hidden rounded-xl"
