@@ -9,6 +9,7 @@ import {
 } from "lucide-react";
 import { useState } from "react";
 import { Link, useResolvedPath } from "react-router-dom";
+import { AnimatePresence, motion } from "framer-motion";
 
 const Header = () => {
   const navItems = [
@@ -42,60 +43,69 @@ const Header = () => {
           <AlignJustify size={18} />
         </button>
       </div>
-      {shouldNavAppear && (
-        <div className="fixed top-0 right-0 bottom-0 bg-white shadow-2xl w-[25vw] h-full z-[101]">
-          <button
+      <AnimatePresence>
+        {shouldNavAppear && (
+          <motion.div
             onClick={() => setShouldNavAppear(false)}
-            className="absolute top-10 right-10 text-gray-700 z-[102]"
+            initial={{ x: "25vw" }}
+            whileInView={{ x: 0 }}
+            exit={{ x: "25vw" }}
+            transition={{ duration: 0.4, ease: "easeInOut" }}
+            className="fixed top-0 right-0 bottom-0 bg-white shadow-2xl w-[25vw] h-full z-[101]"
           >
-            <X size={18} />
-          </button>
+            <button
+              onClick={() => setShouldNavAppear(false)}
+              className="absolute top-10 right-10 text-gray-700 z-[102]"
+            >
+              <X size={18} />
+            </button>
 
-          <div className="flex flex-col justify-between h-full px-10 py-20">
-            <div className=" flex flex-col gap-5 items-start">
-              <p className="text-sm uppercase text-gray-400 border-b w-full pb-2.5 font-semibold tracking-widest">
-                Navigations
-              </p>
-              {navItems.map((item) => (
-                <Link
-                  key={item.url}
-                  to={item.url}
-                  className="text-3xl font-semibold text-gray-700"
-                >
-                  {item.label}
-                </Link>
-              ))}
-            </div>
+            <div className="flex flex-col justify-between h-full px-10 py-20">
+              <div className=" flex flex-col gap-5 items-start">
+                <p className="text-sm uppercase text-gray-400 border-b w-full pb-2.5 font-semibold tracking-widest">
+                  Navigations
+                </p>
+                {navItems.map((item) => (
+                  <Link
+                    key={item.url}
+                    to={item.url}
+                    className="text-3xl font-semibold text-gray-700"
+                  >
+                    {item.label}
+                  </Link>
+                ))}
+              </div>
 
-            <div className="flex flex-col gap-5">
-              <p className="text-sm uppercase text-gray-400 border-b w-full pb-2.5 font-semibold tracking-widest">
-                Socials
-              </p>
-              <div className="flex gap-5 text-gray-700">
-                <Link to="/" target="_blank">
-                  <Facebook size={24} />
-                </Link>
+              <div className="flex flex-col gap-5">
+                <p className="text-sm uppercase text-gray-400 border-b w-full pb-2.5 font-semibold tracking-widest">
+                  Socials
+                </p>
+                <div className="flex items-center gap-5 text-gray-700">
+                  <Link to="/" target="_blank">
+                    <Facebook size={24} />
+                  </Link>
 
-                <Link to="/" target="_blank">
-                  <Linkedin size={24} />
-                </Link>
+                  <Link to="/" target="_blank">
+                    <Linkedin size={24} />
+                  </Link>
 
-                <Link to="/" target="_blank">
-                  <Instagram size={24} />
-                </Link>
+                  <Link to="/" target="_blank">
+                    <Instagram size={24} />
+                  </Link>
 
-                <Link to="/" target="_blank">
-                  <Twitter size={24} />
-                </Link>
+                  <Link to="/" target="_blank">
+                    <Twitter size={24} />
+                  </Link>
 
-                <Link to="/" target="_blank">
-                  <Youtube size={28} />
-                </Link>
+                  <Link to="/" target="_blank">
+                    <Youtube size={28} />
+                  </Link>
+                </div>
               </div>
             </div>
-          </div>
-        </div>
-      )}
+          </motion.div>
+        )}
+      </AnimatePresence>
     </>
   );
 };
