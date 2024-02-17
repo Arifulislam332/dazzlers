@@ -1,6 +1,10 @@
+import { useContext } from "react";
 import { Link } from "react-router-dom";
+import { BlogContext } from "../contexts/BlogContext";
 
 const BlogCard = ({ blog, catid }) => {
+  const [state, dispatch] = useContext(BlogContext);
+  console.log(state);
   return (
     <div className="w-full p-5 rounded-2xl bg-gray-50 flex flex-col gap-5 shadow-md">
       <Link
@@ -21,7 +25,12 @@ const BlogCard = ({ blog, catid }) => {
         <Link to={`/categories${catid}/${blog.id}`} className="btn">
           Read More
         </Link>
-        <button className="btn__secondary">Save Thread</button>
+        <button
+          onClick={() => dispatch({ type: "SAVE", payload: blog })}
+          className="btn__secondary"
+        >
+          Save Thread
+        </button>
       </div>
     </div>
   );
