@@ -1,4 +1,4 @@
-import { createContext, useReducer } from "react";
+import { createContext, useEffect, useReducer } from "react";
 
 export const BlogContext = createContext();
 
@@ -9,14 +9,16 @@ const initialState = {
 const blogReducer = (state, action) => {
   switch (action.type) {
     case "SAVE":
-      state.blogs.push(action.payload);
-      localStorage.setItem("blogs", JSON.stringify(state.blogs));
-      return state;
+      return {
+        ...state,
+        blogs: [...state.blogs, action.payload],
+      };
 
     case "REMOVE":
-      state.blogs = state.blogs.filter((blog) => blog.id !== action.payload);
-      localStorage.setItem("blogs", JSON.stringify(state.blogs));
-      return state;
+      return {
+        ...state,
+        blogs: state.blogs.filter((blog) => blog.id !== action.payload.id),
+      };
 
     default:
       return state;
@@ -25,6 +27,10 @@ const blogReducer = (state, action) => {
 
 export const BlogProvider = ({ children }) => {
   const [state, dispatch] = useReducer(blogReducer, initialState);
+
+  useEffect(() => {
+    localStorage.setItem("blogs", JSON.stringify(state.blogs));
+  }, [state]);
 
   return (
     <BlogContext.Provider value={[state, dispatch]}>

@@ -1,10 +1,21 @@
-import { useContext } from "react";
+import { useContext, useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import { BlogContext } from "../contexts/BlogContext";
 
 const BlogCard = ({ blog, catid }) => {
   const [state, dispatch] = useContext(BlogContext);
-  console.log(state);
+  const [hasBeenSaved, setHasBeenSaved] = useState(false);
+
+  useEffect(() => {
+    const isExist = state.blogs.some((bl) => bl.id === blog.id);
+
+    if (isExist) {
+      setHasBeenSaved(true);
+    } else {
+      setHasBeenSaved(false);
+    }
+  }, [state]);
+
   return (
     <div className="w-full p-5 rounded-2xl bg-gray-50 flex flex-col gap-5 shadow-md">
       <Link
@@ -14,7 +25,7 @@ const BlogCard = ({ blog, catid }) => {
         <img
           src={blog.image}
           alt={blog.title}
-          className="w-full h-full object-covern hover:scale-125 transition duration-300 ease-in-out"
+          className="w-full h-full object-covern hover:scale-125 transition duration-500 ease-in-out"
         />
       </Link>
       <div className="flex flex-col gap-2.5">
@@ -25,12 +36,27 @@ const BlogCard = ({ blog, catid }) => {
         <Link to={`/categories${catid}/${blog.id}`} className="btn">
           Read More
         </Link>
-        <button
-          onClick={() => dispatch({ type: "SAVE", payload: blog })}
-          className="btn__secondary"
-        >
-          Save Thread
-        </button>
+        {!hasBeenSaved && (
+          <button
+            onClick={() =>
+              dispatch({ type: "SAVE", payload: { ...blog, catid } })
+            }
+            className="btn__secondary"
+          >
+            Save Thread
+          </button>
+        )}
+
+        {hasBeenSaved && (
+          <button
+            onClick={() =>
+              dispatch({ type: "REMOVE", payload: { ...blog, catid } })
+            }
+            className="btn__secondary"
+          >
+            Remove Thread
+          </button>
+        )}
       </div>
     </div>
   );

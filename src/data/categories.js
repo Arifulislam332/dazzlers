@@ -116,7 +116,7 @@ export const categories = [
     url: "/category-2",
     items: [
       {
-        id: 1,
+        id: 13,
         title: "Blog 1",
         image:
           "https://images.pexels.com/photos/2909515/pexels-photo-2909515.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
@@ -124,7 +124,7 @@ export const categories = [
           "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel voluptatibus nam deserunt, tenetur, rem ducimus suscipit consequatur dicta doloribus iusto soluta",
       },
       {
-        id: 2,
+        id: 50,
         title: "Blog 2",
         image:
           "https://images.pexels.com/photos/2909515/pexels-photo-2909515.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
@@ -132,7 +132,7 @@ export const categories = [
           "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel voluptatibus nam deserunt, tenetur, rem ducimus suscipit consequatur dicta doloribus iusto soluta",
       },
       {
-        id: 3,
+        id: 14,
         title: "Blog 3",
         image:
           "https://images.pexels.com/photos/2909515/pexels-photo-2909515.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
@@ -140,7 +140,7 @@ export const categories = [
           "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel voluptatibus nam deserunt, tenetur, rem ducimus suscipit consequatur dicta doloribus iusto soluta",
       },
       {
-        id: 4,
+        id: 15,
         title: "Blog 4",
         image:
           "https://images.pexels.com/photos/2909515/pexels-photo-2909515.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
@@ -148,7 +148,7 @@ export const categories = [
           "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel voluptatibus nam deserunt, tenetur, rem ducimus suscipit consequatur dicta doloribus iusto soluta",
       },
       {
-        id: 5,
+        id: 16,
         title: "Blog 5",
         image:
           "https://images.pexels.com/photos/2909515/pexels-photo-2909515.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
@@ -156,7 +156,7 @@ export const categories = [
           "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel voluptatibus nam deserunt, tenetur, rem ducimus suscipit consequatur dicta doloribus iusto soluta",
       },
       {
-        id: 6,
+        id: 17,
         title: "Blog 6",
         image:
           "https://images.pexels.com/photos/2909515/pexels-photo-2909515.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
@@ -164,7 +164,7 @@ export const categories = [
           "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel voluptatibus nam deserunt, tenetur, rem ducimus suscipit consequatur dicta doloribus iusto soluta",
       },
       {
-        id: 7,
+        id: 18,
         title: "Blog 7",
         image:
           "https://images.pexels.com/photos/2909515/pexels-photo-2909515.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
@@ -172,7 +172,7 @@ export const categories = [
           "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel voluptatibus nam deserunt, tenetur, rem ducimus suscipit consequatur dicta doloribus iusto soluta",
       },
       {
-        id: 8,
+        id: 19,
         title: "Blog 8",
         image:
           "https://images.pexels.com/photos/2909515/pexels-photo-2909515.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
@@ -180,7 +180,7 @@ export const categories = [
           "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel voluptatibus nam deserunt, tenetur, rem ducimus suscipit consequatur dicta doloribus iusto soluta",
       },
       {
-        id: 9,
+        id: 20,
         title: "Blog 9",
         image:
           "https://images.pexels.com/photos/2909515/pexels-photo-2909515.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
@@ -188,24 +188,8 @@ export const categories = [
           "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel voluptatibus nam deserunt, tenetur, rem ducimus suscipit consequatur dicta doloribus iusto soluta",
       },
       {
-        id: 10,
+        id: 21,
         title: "Blog 10",
-        image:
-          "https://images.pexels.com/photos/2909515/pexels-photo-2909515.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-        description:
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel voluptatibus nam deserunt, tenetur, rem ducimus suscipit consequatur dicta doloribus iusto soluta",
-      },
-      {
-        id: 11,
-        title: "Blog 11",
-        image:
-          "https://images.pexels.com/photos/2909515/pexels-photo-2909515.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-        description:
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel voluptatibus nam deserunt, tenetur, rem ducimus suscipit consequatur dicta doloribus iusto soluta",
-      },
-      {
-        id: 12,
-        title: "Blog 12",
         image:
           "https://images.pexels.com/photos/2909515/pexels-photo-2909515.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
         description:
@@ -223,7 +207,7 @@ export const categories = [
     url: "/category-3",
     items: [
       {
-        id: 1,
+        id: 22,
         title: "Blog 1",
         image:
           "https://images.pexels.com/photos/2909515/pexels-photo-2909515.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
@@ -231,7 +215,7 @@ export const categories = [
           "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel voluptatibus nam deserunt, tenetur, rem ducimus suscipit consequatur dicta doloribus iusto soluta",
       },
       {
-        id: 2,
+        id: 23,
         title: "Blog 2",
         image:
           "https://images.pexels.com/photos/2909515/pexels-photo-2909515.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
@@ -239,7 +223,7 @@ export const categories = [
           "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel voluptatibus nam deserunt, tenetur, rem ducimus suscipit consequatur dicta doloribus iusto soluta",
       },
       {
-        id: 3,
+        id: 24,
         title: "Blog 3",
         image:
           "https://images.pexels.com/photos/2909515/pexels-photo-2909515.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
@@ -247,7 +231,7 @@ export const categories = [
           "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel voluptatibus nam deserunt, tenetur, rem ducimus suscipit consequatur dicta doloribus iusto soluta",
       },
       {
-        id: 4,
+        id: 25,
         title: "Blog 4",
         image:
           "https://images.pexels.com/photos/2909515/pexels-photo-2909515.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
@@ -255,7 +239,7 @@ export const categories = [
           "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel voluptatibus nam deserunt, tenetur, rem ducimus suscipit consequatur dicta doloribus iusto soluta",
       },
       {
-        id: 5,
+        id: 26,
         title: "Blog 5",
         image:
           "https://images.pexels.com/photos/2909515/pexels-photo-2909515.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
@@ -263,7 +247,7 @@ export const categories = [
           "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel voluptatibus nam deserunt, tenetur, rem ducimus suscipit consequatur dicta doloribus iusto soluta",
       },
       {
-        id: 6,
+        id: 27,
         title: "Blog 6",
         image:
           "https://images.pexels.com/photos/2909515/pexels-photo-2909515.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
@@ -271,7 +255,7 @@ export const categories = [
           "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel voluptatibus nam deserunt, tenetur, rem ducimus suscipit consequatur dicta doloribus iusto soluta",
       },
       {
-        id: 7,
+        id: 28,
         title: "Blog 7",
         image:
           "https://images.pexels.com/photos/2909515/pexels-photo-2909515.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
@@ -279,7 +263,7 @@ export const categories = [
           "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel voluptatibus nam deserunt, tenetur, rem ducimus suscipit consequatur dicta doloribus iusto soluta",
       },
       {
-        id: 8,
+        id: 29,
         title: "Blog 8",
         image:
           "https://images.pexels.com/photos/2909515/pexels-photo-2909515.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
@@ -287,7 +271,7 @@ export const categories = [
           "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel voluptatibus nam deserunt, tenetur, rem ducimus suscipit consequatur dicta doloribus iusto soluta",
       },
       {
-        id: 9,
+        id: 30,
         title: "Blog 9",
         image:
           "https://images.pexels.com/photos/2909515/pexels-photo-2909515.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
@@ -295,7 +279,7 @@ export const categories = [
           "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel voluptatibus nam deserunt, tenetur, rem ducimus suscipit consequatur dicta doloribus iusto soluta",
       },
       {
-        id: 10,
+        id: 31,
         title: "Blog 10",
         image:
           "https://images.pexels.com/photos/2909515/pexels-photo-2909515.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
@@ -303,7 +287,7 @@ export const categories = [
           "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel voluptatibus nam deserunt, tenetur, rem ducimus suscipit consequatur dicta doloribus iusto soluta",
       },
       {
-        id: 11,
+        id: 32,
         title: "Blog 11",
         image:
           "https://images.pexels.com/photos/2909515/pexels-photo-2909515.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
@@ -311,7 +295,7 @@ export const categories = [
           "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel voluptatibus nam deserunt, tenetur, rem ducimus suscipit consequatur dicta doloribus iusto soluta",
       },
       {
-        id: 12,
+        id: 33,
         title: "Blog 12",
         image:
           "https://images.pexels.com/photos/2909515/pexels-photo-2909515.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
@@ -330,7 +314,7 @@ export const categories = [
     url: "/category-4",
     items: [
       {
-        id: 1,
+        id: 34,
         title: "Blog 1",
         image:
           "https://images.pexels.com/photos/2909515/pexels-photo-2909515.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
@@ -338,7 +322,7 @@ export const categories = [
           "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel voluptatibus nam deserunt, tenetur, rem ducimus suscipit consequatur dicta doloribus iusto soluta",
       },
       {
-        id: 2,
+        id: 35,
         title: "Blog 2",
         image:
           "https://images.pexels.com/photos/2909515/pexels-photo-2909515.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
@@ -346,7 +330,7 @@ export const categories = [
           "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel voluptatibus nam deserunt, tenetur, rem ducimus suscipit consequatur dicta doloribus iusto soluta",
       },
       {
-        id: 3,
+        id: 36,
         title: "Blog 3",
         image:
           "https://images.pexels.com/photos/2909515/pexels-photo-2909515.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
@@ -354,7 +338,7 @@ export const categories = [
           "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel voluptatibus nam deserunt, tenetur, rem ducimus suscipit consequatur dicta doloribus iusto soluta",
       },
       {
-        id: 4,
+        id: 37,
         title: "Blog 4",
         image:
           "https://images.pexels.com/photos/2909515/pexels-photo-2909515.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
@@ -362,7 +346,7 @@ export const categories = [
           "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel voluptatibus nam deserunt, tenetur, rem ducimus suscipit consequatur dicta doloribus iusto soluta",
       },
       {
-        id: 5,
+        id: 38,
         title: "Blog 5",
         image:
           "https://images.pexels.com/photos/2909515/pexels-photo-2909515.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
@@ -370,7 +354,7 @@ export const categories = [
           "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel voluptatibus nam deserunt, tenetur, rem ducimus suscipit consequatur dicta doloribus iusto soluta",
       },
       {
-        id: 6,
+        id: 39,
         title: "Blog 6",
         image:
           "https://images.pexels.com/photos/2909515/pexels-photo-2909515.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
@@ -378,7 +362,7 @@ export const categories = [
           "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel voluptatibus nam deserunt, tenetur, rem ducimus suscipit consequatur dicta doloribus iusto soluta",
       },
       {
-        id: 7,
+        id: 40,
         title: "Blog 7",
         image:
           "https://images.pexels.com/photos/2909515/pexels-photo-2909515.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
@@ -386,7 +370,7 @@ export const categories = [
           "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel voluptatibus nam deserunt, tenetur, rem ducimus suscipit consequatur dicta doloribus iusto soluta",
       },
       {
-        id: 8,
+        id: 41,
         title: "Blog 8",
         image:
           "https://images.pexels.com/photos/2909515/pexels-photo-2909515.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
@@ -394,32 +378,8 @@ export const categories = [
           "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel voluptatibus nam deserunt, tenetur, rem ducimus suscipit consequatur dicta doloribus iusto soluta",
       },
       {
-        id: 9,
+        id: 42,
         title: "Blog 9",
-        image:
-          "https://images.pexels.com/photos/2909515/pexels-photo-2909515.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-        description:
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel voluptatibus nam deserunt, tenetur, rem ducimus suscipit consequatur dicta doloribus iusto soluta",
-      },
-      {
-        id: 10,
-        title: "Blog 10",
-        image:
-          "https://images.pexels.com/photos/2909515/pexels-photo-2909515.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-        description:
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel voluptatibus nam deserunt, tenetur, rem ducimus suscipit consequatur dicta doloribus iusto soluta",
-      },
-      {
-        id: 11,
-        title: "Blog 11",
-        image:
-          "https://images.pexels.com/photos/2909515/pexels-photo-2909515.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-        description:
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel voluptatibus nam deserunt, tenetur, rem ducimus suscipit consequatur dicta doloribus iusto soluta",
-      },
-      {
-        id: 12,
-        title: "Blog 12",
         image:
           "https://images.pexels.com/photos/2909515/pexels-photo-2909515.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
         description:
