@@ -24,13 +24,13 @@ const BlogDetails = () => {
   }
 
   return (
-    <div className="container mx-auto py-20">
+    <div className="container mx-auto px-5 py-20 sm:px-20">
       <SectionTitle
         heading={selectedBlog.title}
         subHeading={selectedBlog.description}
       />
 
-      <div className="mt-20 w-full h-full aspect-[5/4] overflow-hidden">
+      <div className="mt-5 sm:mt-20 w-full h-full aspect-[5/4] overflow-hidden">
         <img
           className="w-full h-full object-cover"
           src={selectedBlog.image}
@@ -38,7 +38,7 @@ const BlogDetails = () => {
         />
       </div>
 
-      <div className="mt-20 flex justify-center">
+      <div className="mt-10 sm:mt-20 flex justify-center">
         <button onClick={() => navigate(-1)} className="btn__outline">
           Go Back
         </button>

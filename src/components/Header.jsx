@@ -27,7 +27,7 @@ const Header = () => {
   return (
     <>
       <div
-        className={`fixed z-[100] left-1/2 -translate-x-1/2 top-10 w-full container px-20 flex items-center ${
+        className={`fixed z-[100] left-1/2 -translate-x-1/2 top-10 w-full container px-5 sm:px-20 flex items-center ${
           pathname === "/" ? "justify-center" : "justify-between"
         }`}
       >
@@ -56,11 +56,11 @@ const Header = () => {
 
             <motion.div
               onClick={() => setShouldNavAppear(false)}
-              initial={{ x: "25vw" }}
-              whileInView={{ x: 0 }}
-              exit={{ x: "25vw" }}
+              initial={{ x: "100%" }}
+              whileInView={{ x: "0" }}
+              exit={{ x: "100%" }}
               transition={{ duration: 0.4, ease: "easeInOut" }}
-              className="fixed top-0 right-0 bottom-0 bg-white shadow-2xl w-[25vw] h-full z-[101]"
+              className="fixed top-0 right-0 bottom-0 bg-white shadow-2xl w-screen sm:w-[50vw] lg:w-[35vw] xl:w-[25vw] h-full z-[101]"
             >
               <button
                 onClick={() => setShouldNavAppear(false)}
@@ -69,7 +69,7 @@ const Header = () => {
                 <X size={18} />
               </button>
 
-              <div className="flex flex-col justify-between h-full px-10 py-20">
+              <div className="flex flex-col justify-between items-start h-full px-10 py-20">
                 <div className=" flex flex-col gap-5 items-start">
                   <p className="text-sm uppercase text-gray-400 border-b w-full pb-2.5 font-semibold tracking-widest">
                     Navigations
