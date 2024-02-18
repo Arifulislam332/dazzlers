@@ -27,24 +27,37 @@ const Header = () => {
   return (
     <>
       <div
-        className={`fixed z-[100] left-1/2 -translate-x-1/2 top-10 w-full container px-5 sm:px-20 flex items-center ${
+        className={`overflow-hidden fixed z-[100] left-1/2 -translate-x-1/2 top-10 w-full container px-5 sm:px-20 flex items-center ${
           pathname === "/" ? "justify-center" : "justify-between"
         }`}
       >
-        <Link
-          to="/"
-          className={`text-xl lowercase font-semibold bg-white/80 backdrop-blur-lg px-5 py-2.5 rounded-xl border ${
-            pathname === "/" ? "hidden" : "inline-block"
-          }`}
+        <motion.div
+          initial={{ y: "-100%" }}
+          whileInView={{ y: "0" }}
+          transition={{ duration: 0.75, ease: "easeInOut" }}
         >
-          Discover<span className="text-cyan-600">.</span>
-        </Link>
-        <button
-          onClick={() => setShouldNavAppear(!shouldNavAppear)}
-          className="bg-white/80 backdrop-blur-lg border w-10 aspect-square rounded-full flex items-center justify-center"
+          <Link
+            to="/"
+            className={`text-xl lowercase font-semibold bg-white/80 backdrop-blur-lg px-5 py-2.5 rounded-xl border ${
+              pathname === "/" ? "hidden" : "inline-block"
+            }`}
+          >
+            Discover<span className="text-cyan-600">.</span>
+          </Link>
+        </motion.div>
+
+        <motion.div
+          initial={{ y: "-100%" }}
+          whileInView={{ y: "0" }}
+          transition={{ duration: 0.75, ease: "easeInOut" }}
         >
-          <AlignJustify size={18} />
-        </button>
+          <button
+            onClick={() => setShouldNavAppear(!shouldNavAppear)}
+            className="bg-white/80 backdrop-blur-lg border w-10 aspect-square rounded-full flex items-center justify-center"
+          >
+            <AlignJustify size={18} />
+          </button>
+        </motion.div>
       </div>
       <AnimatePresence>
         {shouldNavAppear && (
@@ -74,14 +87,24 @@ const Header = () => {
                   <p className="text-sm uppercase text-gray-400 border-b w-full pb-2.5 font-semibold tracking-widest">
                     Navigations
                   </p>
-                  {navItems.map((item) => (
+                  {navItems.map((item, index) => (
                     <Link
                       key={item.url}
                       to={item.url}
-                      className="text-3xl font-semibold text-gray-700"
+                      className="text-3xl font-semibold text-gray-700 overflow-hidden"
                     >
-                      {item.label}{" "}
-                      {item.url === "/saved" && `(${state?.blogs?.length})`}
+                      <motion.div
+                        initial={{ y: "100%" }}
+                        whileInView={{ y: 0 }}
+                        transition={{
+                          duration: 0.5,
+                          ease: "easeInOut",
+                          delay: index * 0.125,
+                        }}
+                      >
+                        {item.label}{" "}
+                        {item.url === "/saved" && `(${state?.blogs?.length})`}
+                      </motion.div>
                     </Link>
                   ))}
                 </div>

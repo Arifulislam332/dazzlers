@@ -1,4 +1,5 @@
 import { categories } from "../data/categories";
+import { motion } from "framer-motion";
 import Overlay from "../components/Overlay";
 import { useState } from "react";
 import { Link } from "react-router-dom";
@@ -19,22 +20,33 @@ const Categories = () => {
             index === shouldCategoryExpand && matches ? "w-[40vw]" : "w-[20vw]"
           } overflow-hidden relative ${!matches && "w-full"}`}
         >
-          <img
-            className="h-full w-full object-cover"
-            src={category.banner}
-            alt={category.title}
-          />
-          <Overlay />
-          <div className="absolute top-0 right-0 left-0 bottom-0 flex flex-col gap-5 items-center justify-center text-center text-white p-10 w-full h-full z-[2]">
-            <h1 className="font-bold text-4xl ">{category.title}</h1>
-            <p
-              className={
-                shouldCategoryExpand === index && matches ? "block" : "hidden"
-              }
-            >
-              {category.description}
-            </p>
-          </div>
+          <motion.div
+            initial={{ y: "-100%" }}
+            whileInView={{ y: "0" }}
+            transition={{
+              duration: 1,
+              ease: "easeInOut",
+              delay: index * 0.25,
+            }}
+            className="w-full h-full"
+          >
+            <img
+              className="h-full w-full object-cover"
+              src={category.banner}
+              alt={category.title}
+            />
+            <Overlay />
+            <div className="absolute top-0 right-0 left-0 bottom-0 flex flex-col gap-5 items-center justify-center text-center text-white p-10 w-full h-full z-[2]">
+              <h1 className="font-bold text-4xl ">{category.title}</h1>
+              <p
+                className={
+                  shouldCategoryExpand === index && matches ? "block" : "hidden"
+                }
+              >
+                {category.description}
+              </p>
+            </div>
+          </motion.div>
         </Link>
       ))}
     </div>
