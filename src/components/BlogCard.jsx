@@ -35,7 +35,7 @@ const BlogCard = ({ blog, catid, index }) => {
         />
       </Link>
       <div className="flex flex-col gap-2.5">
-        <h5 className="text-2xl font-medium">{blog.title}</h5>
+        <h5 className="text-2xl font-medium">{blog.title.substring(0,20)}...</h5>
         <p className="text-gray-600">{blog.description.substring(0, 60)}...</p>
       </div>
       <div className="flex items-center justify-between gap-5">

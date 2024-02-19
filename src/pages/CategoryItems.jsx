@@ -4,7 +4,6 @@ import NotFound from "./NotFound";
 import SectionTitle from "../components/SectionTitle";
 import BlogCard from "../components/BlogCard";
 import { useState } from "react";
-import { ChevronDown, ChevronUp } from "lucide-react";
 
 const CategoryItems = () => {
   const [shouldAllItemsAppear, setShouldAllItemsAppear] = useState(false);
