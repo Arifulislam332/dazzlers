@@ -8,7 +8,7 @@ const Home = () => {
     <div className="relative">
       <Slider />
       {/* HERO TEXT CONTENTS */}
-      <div className="absolute left-1/2 top-1/2 z-[3] -translate-x-1/2 -translate-y-1/2 flex flex-col gap-5 items-center">
+      <div className="absolute left-1/2 top-1/2 z-[3] -translate-x-1/2 -translate-y-1/2 flex flex-col gap-10 items-center">
         <div className="overflow-hidden">
           <motion.h1
             initial={{ y: "-100%" }}
@@ -16,7 +16,7 @@ const Home = () => {
             transition={{ duration: 0.75, ease: "easeInOut" }}
             className="sm:text-6xl text-white text-5xl font-bold text-center"
           >
-            Discover Your Signature Look
+            Welcome to our shop - Discover, Shop, and Explore Your Favorites!
           </motion.h1>
         </div>
         <div className="overflow-hidden">
