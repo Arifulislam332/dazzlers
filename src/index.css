@@ -12,4 +12,10 @@
   .btn__outline {
     @apply inline-block bg-transparent px-5 py-2.5 rounded-xl border border-black hover:bg-black/10 transition duration-300 ease-in-out;
   }
+  .btn__about {
+    @apply inline-block text-white bg-rose-600 px-5 py-4 rounded-full hover:bg-rose-700 transition duration-300 ease-in-out;
+  }
+  .btn__form {
+    @apply inline-block outline-none px-5 py-4 rounded-xl border text-white bg-black hover:bg-black/80;
+  }
 }
