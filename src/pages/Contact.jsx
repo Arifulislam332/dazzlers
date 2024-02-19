@@ -58,8 +58,8 @@ const Contact = () => {
             Comment
           </label>
           <textarea
-            id="comment" rows={10}
-            className="outline-none border w-full rounded-xl focus:border-black/50 transition"
+            id="comment" rows={8}
+            className="outline-none border w-full rounded-xl focus:border-black/50 transition p-5" placeholder="Type here your comment..."
           ></textarea>
         </div>
 

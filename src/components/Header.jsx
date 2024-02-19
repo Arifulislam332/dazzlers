@@ -113,26 +113,36 @@ const Header = () => {
                   <p className="text-sm uppercase text-gray-400 border-b w-full pb-2.5 font-semibold tracking-widest">
                     Socials
                   </p>
-                  <div className="flex items-center gap-5 text-gray-700">
-                    <Link to="/" target="_blank">
-                      <Facebook size={24} />
-                    </Link>
+                  <div className="overflow-hidden">
+                    <motion.div
+                      initial={{ y: "-100%" }}
+                      whileInView={{ y: 0 }}
+                      transition={{
+                        duration: 1,
+                        ease: "easeInOut",
+                      }}
+                      className="flex items-center gap-5 text-gray-700"
+                    >
+                      <Link to="/" target="_blank">
+                        <Facebook size={24} />
+                      </Link>
 
-                    <Link to="/" target="_blank">
-                      <Linkedin size={24} />
-                    </Link>
+                      <Link to="/" target="_blank">
+                        <Linkedin size={24} />
+                      </Link>
 
-                    <Link to="/" target="_blank">
-                      <Instagram size={24} />
-                    </Link>
+                      <Link to="/" target="_blank">
+                        <Instagram size={24} />
+                      </Link>
 
-                    <Link to="/" target="_blank">
-                      <Twitter size={24} />
-                    </Link>
+                      <Link to="/" target="_blank">
+                        <Twitter size={24} />
+                      </Link>
 
-                    <Link to="/" target="_blank">
-                      <Youtube size={28} />
-                    </Link>
+                      <Link to="/" target="_blank">
+                        <Youtube size={28} />
+                      </Link>
+                    </motion.div>
                   </div>
                 </div>
               </div>

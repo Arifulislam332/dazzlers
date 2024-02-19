@@ -51,9 +51,9 @@ const CategoryItems = () => {
         <div className="flex justify-center items-center">
           <button
             onClick={() => setShouldAllItemsAppear(true)}
-            className="flex justify-center items-center w-20 h-20 rounded-full animate-bounce hover:bg-gray-200"
+            className="btn__outline"
           >
-            <ChevronDown color="gray" size={50} />
+            View more
           </button>
         </div>
       )}
@@ -62,9 +62,9 @@ const CategoryItems = () => {
         <div className="flex justify-center items-center">
           <button
             onClick={() => setShouldAllItemsAppear(false)}
-            className="flex justify-center items-center w-20 h-20 rounded-full animate-bounce hover:bg-gray-200"
+            className="btn__outline"
           >
-            <ChevronUp color="gray" size={50} />
+            Less more
           </button>
         </div>
       )}
